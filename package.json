@@ -56,7 +56,8 @@
     "umzug": "^1.6.0",
     "validator": "^6.1.0",
     "webpack": "^1.13.2",
-    "xss": "^0.2.13"
+    "xss": "^0.2.13",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-jsxgettext": "^0.2.0",
@@ -107,6 +108,9 @@
     "posttest": "npm run lint",
     "dev": "webpack -d --watch --config webpack.config.development.js",
     "build": "webpack -p --progress --config webpack.config.production.js",
-    "postinstall": "npm run build"
-  }
+    "postinstall": "npm run build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
