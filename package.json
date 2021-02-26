@@ -38,7 +38,7 @@
     "morgan": "^1.5.3",
     "nconf": "^0.8.4",
     "node-uuid": "^1.4.3",
-    "nunjucks": "^2.5.2",
+    "nunjucks": "^3.2.3",
     "passport": "^0.3.2",
     "passport-facebook": "^2.0.0",
     "passport-google-oauth": "^1.0.0",
