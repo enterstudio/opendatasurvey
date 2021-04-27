@@ -27,7 +27,7 @@
     "emailjs": "^1.0.8",
     "express": "^4.12.4",
     "express-session": "^1.11.2",
-    "express-validator": "^2.13.0",
+    "express-validator": "^6.5.0",
     "i18n-abide": "^0.0.25",
     "jquery": "^3.1.0",
     "linkifyjs": "^2.0.0-beta.4",
@@ -54,7 +54,7 @@
     "subdomain": "^1.2.0",
     "throng": "^4.0.0",
     "umzug": "^1.6.0",
-    "validator": "^6.1.0",
+    "validator": "^13.6.0",
     "webpack": "^1.13.2",
     "xss": "^0.2.13"
   },
